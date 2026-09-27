@@ -1,0 +1,25 @@
+# Environments
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Machine Learning Weights & Models
+*.pt
+*.onnx
+vosk-model-*/
+model/
+
+# Generated Media / Assets
+audio/*.mp3
+audio/*.wav
+assets/audio/*.mp3
+assets/audio/*.wav
+
+# Datasets and Outputs
+dataset_frames/
+runs/
+
+# IDE
+.vscode/
+.idea/
